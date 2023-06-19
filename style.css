@@ -1,0 +1,238 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: rgba(4, 2, 2, 0.87);
+    height: 100%
+}
+.menu-btn{
+    color: black;
+    font-size: 23px;
+    cursor:pointer;
+    display: none;
+}
+.navbar{
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    background-color: rgba(234, 225, 225, 0.769);
+    box-shadow: 0 0 14px rgba(10, 0, 1, 0.658);
+}
+.navbar .logo h1{
+    color:rgb(0, 0, 0);
+    border-bottom: 4px solid#fd6561;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .menu li .active{
+    border-bottom: 4px solid #f63e4e;
+}
+.navbar .menu li a i{
+    color: #f63e4e;
+}
+.navbar .menu li a:hover{
+    border-bottom: 4px solid #f63e4e;
+
+}
+.content{
+    background-image: url(f/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #424144;
+    height: 100vh;
+    text-align: start;
+}
+.content h1{
+    color: red;
+    font-size: 40px;
+
+}
+.content p{
+    color: rgb(214, 213, 213);
+    font-size: 20px;
+
+
+}
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: #f63e4e;
+    color: #f3f4f6;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+
+
+
+.sec{
+    padding: 10px 5%;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+}
+.products .card{
+    width: 200px;
+    height: 50vh;
+    background: rgba(48, 46, 46, 0.813);
+    box-shadow: 0 10px 20px rgba(230, 229, 229, 0.696);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+
+}
+.products .card img{
+    height: 150px;
+    width: 100%;
+
+
+}
+.products .card .desc{
+    color: rgb(255, 0, 0);
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+.products .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.products .card .box .price{
+    color: #f63e4e;
+    font-size: 2opx;
+    font-weight: bold;
+}
+.products .card .box .btn{
+    font-size: 13px;
+    color: #f63e4e;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px sloid #f63e4e;
+    border-radius: 20px;
+}
+.products .card .box .btn:hover{
+    cursor: pointer;
+    background-color: #f63e4e;
+    color: white;
+
+}
+#banner {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(f/9.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+#banner h4{
+    color: rgb(191, 5, 141);
+    font-size: 16px;
+
+}
+#banner h2{
+    color: lightblue;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+#banner h3{
+    color: greenyellow;
+    font-size: 20px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: green;
+    
+}
+button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: rgb(216, 204, 204);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: o.2s;
+
+}
